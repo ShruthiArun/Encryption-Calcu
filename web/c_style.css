@@ -1,0 +1,93 @@
+body {
+  background-image: url("bg1.jpg");
+}
+
+h1 {
+  color: bisque;
+  text-align: center;
+  font-family: Verdana;
+}
+
+h3 {
+  color: bisque;
+  text-align: center;
+  font-family: Verdana;
+}
+
+label {
+  color: bisque;
+  text-align: center;
+  font-family: Verdana;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+div.c1 {
+  margin-left: 10px;
+  color: aquamarine;
+  font-size: 20px;
+
+  display: inline-block;
+  width: 600px;
+}
+
+div.c2 {
+  margin-left: 10px;
+  color: aquamarine;
+  font-size: 20px;
+
+  display: inline-block;
+  width: 900px;
+}
+
+#ptc {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#ctc {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#keyc {
+  margin-right: 40px;
+}
+
+#key2c {
+  margin-right: 40px;
+}
+
+#ptrc4 {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#ctrc4 {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#keyrc4 {
+  margin-right: 40px;
+}
+
+#key2rc4 {
+  margin-right: 40px;
+}
+
+#ptrsa {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#ctrsa {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

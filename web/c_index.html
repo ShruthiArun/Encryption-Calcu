@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="cjs.js"></script>
+    <link rel="stylesheet" href="c_style.css" />
+  </head>
+  <body>
+    <h1>Encryption Calculator</h1>
+    <h3>Caesar Encryption</h3>
+    <label for="ptc">Plain Text: </label>
+    <input type="text" placeholder="Enter plain text" id="ptc" value="" />
+    <label for="keyc">Key: </label>
+    <input type="text" placeholder="Enter key" id="keyc" />
+    <input type="button" value="Caesar Encrypt" onclick="enc()" />
+    <label for="cc">Cipher Text: </label>
+    <div id="cc" class="c1"></div>
+    <label for="ctc">Cipher Text: </label>
+    <input type="text" placeholder="Enter cipher text" id="ctc" value="" />
+    <label for="key2c">Key: </label>
+    <input type="text" placeholder="Enter key" id="key2c" />
+    <input type="button" value="Caesar Decrypt" onclick="dec()" />
+    <label for="cp">Decrypted Text: </label>
+    <div id="cp" class="c1"></div>
+
+    <h3>RC4 Encryption</h3>
+    <label for="ptrc4">Plain Text: </label>
+    <input type="text" id="ptrc4" placeholder="Enter plain text for rc4" />
+    <label for="keyrc4">Key: </label>
+    <input type="text" id="keyrc4" placeholder="Enter key for rc4" />
+    <input type="button" value="RC4 Encrypt" onclick="encrc4()" />
+    <label for="rc4c">Cipher Text: </label>
+    <div id="rc4c" class="c1"></div>
+    <label for="ctrc4">Cipher Text: </label>
+    <input type="text" id="ctrc4" placeholder="Enter cipher text for rc4" />
+    <label for="key2rc4">Key: </label>
+    <input type="text" id="key2rc4" placeholder="Enter key for rc4" />
+    <input type="button" value="RC4 Decrypt" onclick="decrc4()" />
+    <label for="rc4p">Decrypted Text: </label>
+    <div id="rc4p" class="c1"></div>
+
+    <h3>RSA Encryption</h3>
+    <label for="ptrsa">Plain Text: </label>
+    <input type="text" id="ptrsa" placeholder="Enter plain text for rsa" />
+    <input type="button" value="RSA Encrypt" onclick="encrsa()" />
+    <label for="rsac">Cipher Text: </label>
+    <div id="rsac" class="c2"></div>
+    <label for="ctrsa">Cipher Text: </label>
+    <input type="text" id="ctrsa" placeholder="Enter cipher text for rsa" />
+    <input type="button" value="RSA Decrypt" onclick="encrsa(1)" />
+    <label for="rsap">Decrypted Text: </label>
+    <div id="rsap" class="c2"></div>
+  </body>
+</html>
